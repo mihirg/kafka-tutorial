@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation project(':common')
+    implementation ('org.apache.kafka:kafka-clients:2.0.0')
+}
